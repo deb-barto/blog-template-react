@@ -16,7 +16,7 @@ export default function sidebar() {
 
             <div className="sidebarItem">
               <span className="sidebarTittle">
-                    <a href="https://dsdsd "><p>adrianvalentim@gmail.com</p></a>
+                    <a><p>adrianvalentim@gmail.com</p></a>
               </span>
           </div>
 
@@ -25,26 +25,36 @@ export default function sidebar() {
                 <span className="sidebarItem">
                         <p>Categories</p>
                 </span>
-                <ul className="sidebarList">    
-                    <ul className="sidebarItems">
-                        memes
-                        <ul className="sidebarItems">memes</ul>
-                        <ul className="sidebarItems">memes</ul>
-                        <ul className="sidebarItems">memes</ul>
-                    </ul>
-                    <ul className="sidebarItems">
-                        memes
-                        <ul className="sidebarItems">memes</ul>
-                        <ul className="sidebarItems">memes</ul>
-                        <ul className="sidebarItems">memes</ul>
-                    </ul>
-                    <ul className="sidebarItems">
-                        memes
-                        <ul className="sidebarItems">memes</ul>
-                        <ul className="sidebarItems">memes</ul>
-                        <ul className="sidebarItems">memes</ul>
-                    </ul>                
-                </ul>
+                <details>
+                <summary>Epcot Center</summary>
+                <details>
+                        <summary className="sumary">Epcot Center</summary>
+                                <details>
+                                <summary className="sumary2">Epcot Center</summary>
+                                    <a className="sumary2" href="">ola</a>
+                                </details>
+                        </details>
+                </details>
+                <details>
+                <summary>Epcot Center</summary>
+                <details>
+                        <summary>  Epcot Center</summary>
+                                <details>
+                                <summary>Epcot Center</summary>
+                                    <a href="#">ola</a>
+                                </details>
+                        </details>
+                </details>
+                <details>
+                <summary>Epcot Center</summary>
+                <details>
+                        <summary>  Epcot Center</summary>
+                                <details>
+                                <summary>Epcot Center</summary>
+                                    <a href="#">ola</a>
+                                </details>
+                        </details>
+                </details>
             </div>
 
             <div className="sidebarItems">

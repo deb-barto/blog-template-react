@@ -5,6 +5,7 @@
     font-family: roboto;
     align-items: center;
     padding:20px;
+  
 }
 
 .sidebarItem{
@@ -13,4 +14,11 @@
     flex-direction:column;
     margin: auto;
     padding: 10px;
+}
+
+.sumary{
+    padding-left: 10px;
+}
+.sumary2{
+    padding-left: 20px;
 }
