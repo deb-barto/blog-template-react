@@ -1,24 +1,53 @@
-.sidebar{
-    background-color:rgb(221, 221, 221);
-    flex: 3;
-    height: 100vh;
-    font-family: roboto;
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    height:100%;
+    width:20%;
+    font-family:roboto;
     align-items: center;
-    padding:20px;
-  
+    position:absolute;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
 }
 
-.sidebarItem{
+.logo{
+    margin-top: 50px;
+}
+.sidebarItem {
     align-items: center;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     margin: auto;
     padding: 10px;
 }
 
-.sumary{
+.sumary {
     padding-left: 10px;
 }
-.sumary2{
-    padding-left: 20px;
+
+.sumary2 {
+    padding-left: 10px;
+}
+
+.categorie-itens {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    color: black;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link:active,
+a:visited:active {
+    color: (internal value);
+}
+
+details {
+    margin: 10px;
+    margin-left: 20%;
 }

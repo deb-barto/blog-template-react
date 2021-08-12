@@ -1,11 +1,12 @@
-import "./sidebar.css"
+import "./sidebar.css";
+import { ReactComponent as Logo } from './logoadrian.svg'
 
 export default function sidebar() {
     return (
         <div className="sidebar">
           <div className="sidebarItem">
               <span className="logo">
-                    <img src="https://logo.com" alt="logo"/>
+              <Logo />
               </span>
           </div>
 
@@ -29,32 +30,81 @@ export default function sidebar() {
                 <summary>Epcot Center</summary>
                 <details>
                         <summary className="sumary">Epcot Center</summary>
+                        <div className= "categorie-itens">
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        </div>
                                 <details>
                                 <summary className="sumary2">Epcot Center</summary>
-                                    <a className="sumary2" href="">ola</a>
+                                        <div className= "categorie-itens">
+                                <a className="sumary" href="">ola</a>
+                                <a className="sumary" href="">ola</a>
+                                <a className="sumary" href="">ola</a>
+                                </div>
                                 </details>
                         </details>
                 </details>
+
+
                 <details>
                 <summary>Epcot Center</summary>
                 <details>
-                        <summary>  Epcot Center</summary>
+                        <summary className="sumary">Epcot Center</summary>
+                        <div className= "categorie-itens">
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        </div>
                                 <details>
-                                <summary>Epcot Center</summary>
-                                    <a href="#">ola</a>
+                                <summary className="sumary2">Epcot Center</summary>
+                                        <div className= "categorie-itens">
+                                <a className="sumary" href="">ola</a>
+                                <a className="sumary" href="">ola</a>
+                                <a className="sumary" href="">ola</a>
+                                </div>
                                 </details>
                         </details>
                 </details>
+                
                 <details>
                 <summary>Epcot Center</summary>
                 <details>
-                        <summary>  Epcot Center</summary>
-                                <details>
-                                <summary>Epcot Center</summary>
-                                    <a href="#">ola</a>
-                                </details>
+                        <summary className="sumary">Epcot Center</summary>
+                        <div className= "categorie-itens">
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        </div>
                         </details>
                 </details>
+
+                <details>
+                <summary>Epcot Center</summary>
+                <details>
+                        <summary className="sumary">Epcot Center</summary>
+                        <div className= "categorie-itens">
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        </div>
+                        </details>
+                </details>
+
+                <details>
+                <summary>Epcot Center</summary>
+                <details>
+                        <summary className="sumary">Epcot Center</summary>
+                        <div className= "categorie-itens">
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        <a className="sumary" href="">ola</a>
+                        </div>
+                        </details>
+                </details>
+                
+
+           
             </div>
 
             <div className="sidebarItems">

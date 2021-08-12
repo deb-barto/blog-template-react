@@ -5,8 +5,10 @@ import "./home.css"
 export default function Home() {
     return (
         <div className="home-class">
-            <Sidebar/>
+             <Sidebar/>
             <Posts/>
+            
+           
         </div>
     )
 }
